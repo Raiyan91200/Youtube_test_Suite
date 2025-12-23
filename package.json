@@ -1,0 +1,20 @@
+{
+  "name": "clp",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Syed Raiyan Nasim",
+  "type": "commonjs",
+  "main": "test_suite.js",
+  "scripts": {
+    "test": "mocha test_suite.js --reporter mochawesome"
+  },
+  "dependencies": {
+   "mochawesome": "^7.1.4",
+  "selenium-webdriver": "^4.39.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
