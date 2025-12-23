@@ -75,5 +75,4 @@ Open this file in your browser to view the test results, execution time, and pas
 
 **Syed Raiyan Nasim**
 
-Syed Raiyan Nasim
 *Happy Testing!*
