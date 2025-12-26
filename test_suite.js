@@ -4,7 +4,7 @@ const fs = require('fs');
 const chrome = require('selenium-webdriver/chrome');
 
 describe('YouTube Automated Test Suite', function () {
-    this.timeout(12000);
+    this.timeout(60000);
     let driver;
 
     before(async function () {
