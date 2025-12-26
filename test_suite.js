@@ -96,6 +96,7 @@ describe('YouTube Automated Test Suite', function () {
 
             if (fullText.includes("green university of bangladesh") || fullText.includes("gub")) {
                 found = true;
+                console.log(`    Found GUB related video: "${title}" from channel "${channel}"`);
                 break;
             }
         }
@@ -135,6 +136,7 @@ describe('YouTube Automated Test Suite', function () {
                 try {
                     const response = await fetch(src, { method: 'HEAD' });
                     if (response.status !== 200) isBroken = true;
+                    console.log(`    Checked thumbnail URL: ${src}, status: ${response.status}`);
                 } catch (err) {
                     isBroken = true;
                 }
